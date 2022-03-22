@@ -1,0 +1,516 @@
+41 2 0
+38 1
+22 8 32 48 12 0 \NUL
+Lab 1
+22 8 64 88 44 0 \NUL
+Zhu, Jessie
+22 8 96 52 76 0 \NUL
+jelzhu
+22 64 272 264 252 0 \NUL
+Part A Output                            
+8 216 184 265 135 1 0
+8 280 184 329 135 1 0
+8 352 184 401 135 1 0
+11 168 424 195 326 0 1
+20 264 208 323 189 0
+in_3
+20 336 208 395 189 0
+in_2
+20 408 208 467 189 0
+in_1
+8 424 184 473 135 1 0
+20 480 208 539 189 0
+in_0
+19 80 312 139 293 0
+a_3
+19 64 336 123 317 0
+a_2
+19 48 360 107 341 0
+a_1
+19 32 384 91 365 0
+a_0
+22 56 456 281 436 0 \NUL
+Part A connects the four input bits,
+22 448 456 664 436 0 \NUL
+Part B takes the four bits of input
+7 360 664 409 615 0 1
+7 360 704 409 655 0 1
+19 272 592 331 573 0
+c_2
+19 272 632 331 613 0
+c_1
+19 272 672 331 653 0
+c_0
+22 416 688 480 668 0 \NUL
+SOP/POS
+22 416 648 492 628 0 \NUL
+NAND Only
+22 416 608 484 588 0 \NUL
+NOR Only
+22 448 480 663 460 0 \NUL
+and outputs three bits that follow
+22 272 720 540 700 0 \NUL
+Part C takes three bits (ignores in_3) and
+22 272 744 598 724 0 \NUL
+outputs one bit following the truth table. Each LED
+22 280 32 653 12 0 \NUL
+You are only permitted to modify or add text to this page.
+22 280 56 605 36 0 \NUL
+Your circuit must use senders and/or receivers to
+22 280 80 538 60 0 \NUL
+interface with these inputs and outputs.
+7 472 360 521 311 0 1
+7 544 360 593 311 0 1
+7 616 360 665 311 0 1
+19 416 392 475 373 0
+b_2
+19 488 392 547 373 0
+b_1
+19 560 392 619 373 0
+b_0
+7 360 624 409 575 0 1
+22 64 136 616 116 0 \NUL
+Input                                                                                                                                 
+22 448 272 650 252 0 \NUL
+Part B Output                            
+22 272 552 473 532 0 \NUL
+Part C Output                            
+22 56 504 260 484 0 \NUL
+integer, to a 7 segment LED to 
+22 56 480 314 460 0 \NUL
+each representing a bit in a 4-bit binary
+22 56 552 171 532 0 \NUL
+(in hexadecimal).
+22 56 528 267 508 0 \NUL
+display the represented number
+22 448 504 593 484 0 \NUL
+the (given) truth table.
+22 448 528 654 508 0 \NUL
+Off LED: "0" bit, On LED: "1" bit
+22 272 792 580 772 0 \NUL
+ restrictions, representing the same truth table.
+22 272 768 551 748 0 \NUL
+is a different circuit with different gate type
+1 481 198 470 159
+1 398 159 409 198
+1 326 159 337 198
+1 262 159 265 198
+1 136 302 169 390
+1 120 326 169 396
+1 104 350 169 402
+1 88 374 169 408
+1 361 639 328 622
+1 361 679 328 662
+1 473 335 472 382
+1 545 335 544 382
+1 617 335 616 382
+1 361 599 328 582
+38 2
+22 8 32 48 12 0 \NUL
+Lab 1
+22 8 64 88 44 0 \NUL
+Zhu, Jessie
+22 8 96 52 76 0 \NUL
+jelzhu
+22 24 600 390 580 0 \NUL
+these are only present so circuit simulates without error
+22 24 624 291 604 0 \NUL
+remove these once logic is implemented
+22 32 184 262 164 0 \NUL
+placeholder senders and receivers
+22 209 350 645 330 0 \NUL
+We suggest building each part on a new page using the -/+ buttons
+22 32 288 136 268 0 \NUL
+a_3 - a_0, used
+22 32 392 136 372 0 \NUL
+b_3 - b_0, used
+22 32 496 134 476 0 \NUL
+c_3 - c_0, used
+22 192 72 547 52 0 \NUL
+There is nothing on this page, part A starts next page. 
+38 3
+22 8 32 48 12 0 \NUL
+Lab 1
+22 8 64 88 44 0 \NUL
+Zhu, Jessie
+22 8 96 52 76 0 \NUL
+jelzhu
+20 368 224 427 205 0
+a_3
+20 368 264 427 245 0
+a_2
+20 368 304 427 285 0
+a_1
+20 368 344 427 325 0
+a_0
+22 280 72 434 52 0 \NUL
+Part A - 7 Segment LED
+19 272 216 331 197 0
+in_3
+19 272 296 331 277 0
+in_1
+19 272 336 331 317 0
+in_0
+19 272 256 331 237 0
+in_2
+22 56 160 778 140 0 \NUL
+These senders send the bit data to corresponding receivers on page 1 which are connect to the 7 segment LED
+22 200 136 515 116 0 \NUL
+Input receivers (left) are wired to senders (right).
+22 120 184 664 164 0 \NUL
+LED will display the hexadecimal number corresponding to the binary 4-bit integer. 
+1 369 214 328 206
+1 369 254 328 246
+1 369 294 328 286
+1 369 334 328 326
+38 4
+22 8 32 48 12 0 \NUL
+Lab 1
+22 8 64 88 44 0 \NUL
+Zhu, Jessie
+22 8 96 52 76 0 \NUL
+jelzhu
+20 440 408 499 389 0
+b_0
+20 440 344 499 325 0
+b_2
+22 264 64 473 44 0 \NUL
+Part B - 4-bit to 3-bit Truth Table
+14 192 432 241 383
+35 336 336 385 287 0 0
+19 200 336 259 317 0
+in_0
+19 200 312 259 293 0
+in_1
+19 200 264 259 245 0
+in_3
+19 200 288 259 269 0
+in_2
+19 200 384 259 365 0
+in_0
+20 440 376 499 357 0
+b_1
+22 216 136 445 116 0 \NUL
+ 1. b_2 is 1 if in_0 or in_1, not both
+22 216 160 460 140 0 \NUL
+ 2. b_1 was always the same as in_0
+22 216 184 356 164 0 \NUL
+ 3. b_0 was always 0
+22 208 512 383 492 0 \NUL
+*in_3 and in_2 aren't used
+22 168 112 665 92 0 \NUL
+I made observations of the truth table for each output, then built accordingly:
+22 520 136 609 116 0 \NUL
+ => XOR gate
+22 520 160 627 140 0 \NUL
+ => direct wiring
+22 520 184 663 164 0 \NUL
+ => connect to ground
+22 288 368 308 348 0 \NUL
+(2)
+22 344 288 364 268 0 \NUL
+(1)
+22 240 440 260 420 0 \NUL
+(3)
+1 238 407 441 398
+1 441 334 382 311
+1 337 297 256 302
+1 337 325 256 326
+1 256 374 441 366
+38 5
+22 8 32 48 12 0 \NUL
+Lab 1
+22 8 64 88 44 0 \NUL
+Zhu, Jessie
+22 8 96 52 76 0 \NUL
+jelzhu
+20 600 440 659 421 0
+c_0
+22 240 64 429 44 0 \NUL
+Part C (1/3) - SOP/POS Gates
+3 400 304 449 255 1 0
+3 400 392 449 343 1 0
+3 400 480 449 431 1 0
+3 400 568 449 519 1 0
+5 208 280 257 231 0
+5 208 392 257 343 0
+5 208 504 257 455 0
+5 248 544 297 495 0
+5 248 592 297 543 0
+5 208 568 257 519 0
+4 520 360 569 311 2 0
+19 104 264 163 245 0
+in_2
+19 104 352 163 333 0
+in_2
+19 104 440 163 421 0
+in_2
+19 104 528 163 509 0
+in_2
+19 104 552 163 533 0
+in_1
+19 104 464 163 445 0
+in_1
+19 104 376 163 357 0
+in_1
+19 104 288 163 269 0
+in_1
+19 104 576 163 557 0
+in_0
+19 104 488 163 469 0
+in_0
+19 104 400 163 381 0
+in_0
+19 104 312 163 293 0
+in_0
+22 80 120 510 100 0 \NUL
+Sum of products: Using the truth table, got a sum that looked like: 
+22 520 120 704 100 0 \NUL
+A'BC + AB'C + ABC' + A'B'C'
+22 32 288 71 268 0 \NUL
+A'BC:
+22 32 464 71 444 0 \NUL
+ABC':
+22 32 376 71 356 0 \NUL
+A'BC:
+22 32 552 79 532 0 \NUL
+A'B'C':
+22 24 232 203 212 0 \NUL
+in_2 = A, in_1 = B, in_0 = C
+22 8 144 793 124 0 \NUL
+Turned that equation into circuits using AND/OR/NOT gates, which gives an output to c_0 which lights up(or doesn't) LED.
+1 401 265 254 255
+1 521 321 446 279
+1 401 367 254 367
+1 521 330 446 367
+1 401 469 254 479
+1 521 340 446 455
+1 401 529 294 519
+1 401 543 254 543
+1 401 557 294 567
+1 521 349 446 543
+1 209 255 160 254
+1 401 279 160 278
+1 401 293 160 302
+1 401 353 160 342
+1 209 367 160 366
+1 401 381 160 390
+1 401 441 160 430
+1 401 455 160 454
+1 209 479 160 478
+1 249 519 160 518
+1 209 543 160 542
+1 249 567 160 566
+1 566 335 601 430
+38 6
+20 600 504 659 485 0
+c_1
+19 104 328 163 309 0
+in_2
+19 104 352 163 333 0
+in_1
+19 104 376 163 357 0
+in_0
+3 200 344 249 295 0 1
+3 400 456 449 407 1 1
+3 400 368 449 319 1 1
+19 104 416 163 397 0
+in_2
+19 104 440 163 421 0
+in_1
+19 104 464 163 445 0
+in_0
+19 104 504 163 485 0
+in_2
+19 104 528 163 509 0
+in_1
+19 104 552 163 533 0
+in_0
+19 104 592 163 573 0
+in_2
+19 104 616 163 597 0
+in_1
+19 104 640 163 621 0
+in_0
+3 200 456 249 407 0 1
+3 200 568 249 519 0 1
+3 200 608 249 559 0 1
+3 296 632 345 583 0 1
+3 200 656 249 607 0 1
+3 400 544 449 495 1 1
+3 400 632 449 583 1 1
+3 520 424 569 375 2 1
+22 264 64 431 44 0 \NUL
+Part C (2/3) - NAND Gates
+22 8 32 48 12 0 \NUL
+Lab 1
+22 8 64 88 44 0 \NUL
+Zhu, Jessie
+22 8 96 52 76 0 \NUL
+jelzhu
+22 88 112 598 92 0 \NUL
+I followed the same structure from SOP/POS circuits and adjusted accordingly:
+22 128 136 545 116 0 \NUL
+1. NAND<=> NOT swap: NAND gate can be used as an NOT gate
+22 128 184 662 164 0 \NUL
+3. Using De Morgan's Law: (xy)' = x'+y', more specifically: (x'y')' = (x')'+(y')' = x+y
+22 128 160 634 140 0 \NUL
+2. AND gate can be created using NAND and NOT (NOT is deleted later, see 4)
+22 208 288 228 268 0 \NUL
+(1)
+22 472 336 492 316 0 \NUL
+(4)
+22 528 376 548 356 0 \NUL
+(3)
+22 408 312 428 292 0 \NUL
+(2)
+22 128 232 782 212 0 \NUL
+4. Two NOT gates will cancel each other out, thus we can get rid of the NOT gates between (2) and (3)
+22 64 208 729 188 0 \NUL
+OR gate is obtained by inverting all inputs before feeding into NAND gate. (NOT is deleted later, see 4)
+22 88 256 474 236 0 \NUL
+One bit is outputted to c_1, which lights up(or doesn't) LED.
+1 201 305 160 318
+1 201 333 160 318
+1 401 329 246 319
+1 401 343 160 342
+1 401 357 160 366
+1 201 417 160 430
+1 201 445 160 430
+1 401 417 160 406
+1 401 431 246 431
+1 401 445 160 454
+1 201 529 160 542
+1 201 557 160 542
+1 201 569 160 582
+1 201 597 160 582
+1 297 593 160 606
+1 297 621 160 606
+1 201 617 160 630
+1 201 645 160 630
+1 401 505 160 494
+1 401 519 160 518
+1 401 533 246 543
+1 401 593 246 583
+1 401 607 342 607
+1 401 621 246 631
+1 521 385 446 343
+1 521 394 446 431
+1 521 404 446 519
+1 521 413 446 607
+1 601 494 566 399
+38 7
+20 664 464 723 445 0
+c_2
+19 104 320 163 301 0
+in_2
+19 104 344 163 325 0
+in_1
+19 104 368 163 349 0
+in_0
+19 104 408 163 389 0
+in_2
+19 104 432 163 413 0
+in_1
+19 104 456 163 437 0
+in_0
+19 104 496 163 477 0
+in_2
+19 104 520 163 501 0
+in_1
+19 104 544 163 525 0
+in_0
+19 104 584 163 565 0
+in_2
+4 200 472 249 423 0 1
+4 200 424 249 375 0 1
+4 200 536 249 487 0 1
+4 280 512 329 463 0 1
+4 520 416 569 367 2 1
+4 400 624 449 575 1 1
+4 400 536 449 487 1 1
+4 400 448 449 399 1 1
+4 592 416 641 367 0 1
+22 256 64 415 44 0 \NUL
+Part C (3/3) - NOR Gates
+22 8 32 48 12 0 \NUL
+Lab 1
+22 8 64 88 44 0 \NUL
+Zhu, Jessie
+22 8 96 52 76 0 \NUL
+jelzhu
+19 104 608 163 589 0
+in_1
+19 104 632 163 613 0
+in_0
+22 80 120 590 100 0 \NUL
+I followed the same structure from SOP/POS circuits and adjusted accordingly:
+22 104 144 779 124 0 \NUL
+1. NOR<=> NOT swap: NOR gate can be used as an NOT gate (these NOT gates are deleted later, see 3)
+22 104 168 634 148 0 \NUL
+2. Using De Morgan's Law: (x+y)' = x'y', more specifically: (x'+y')' = (x')'(y')' = xy,
+22 104 240 445 220 0 \NUL
+4. OR gate can be created using NOR and then NOT.
+22 104 216 708 196 0 \NUL
+3. Two NOT gates cancel out, thus we can get rid of the double NOT gates between (1) and (2)
+22 32 192 786 172 0 \NUL
+AND gate is obtained by inverting all inputs before feeding into NOR gate. (some NOT gates are deleted later, see 3)
+22 192 304 216 284 0 \NUL
+(1) 
+22 552 376 572 356 0 \NUL
+(4)
+22 408 312 428 292 0 \NUL
+(2)
+4 400 360 449 311 1 1
+4 200 360 249 311 0 1
+4 288 392 337 343 0 1
+22 80 264 466 244 0 \NUL
+One bit is outputted to c_2, which lights up(or doesn't) LED.
+22 352 312 372 292 0 \NUL
+(3)
+1 201 385 160 398
+1 201 413 160 398
+1 201 433 160 446
+1 201 461 160 446
+1 281 473 160 486
+1 281 501 160 486
+1 160 510 201 525
+1 160 510 201 497
+1 401 409 246 399
+1 401 423 160 422
+1 401 437 246 447
+1 401 497 326 487
+1 401 511 246 511
+1 401 525 160 534
+1 401 585 160 574
+1 521 386 446 423
+1 521 396 446 511
+1 521 405 446 599
+1 593 377 566 391
+1 593 405 566 391
+1 665 454 638 391
+1 160 310 401 321
+1 446 335 521 377
+1 160 358 289 381
+1 160 358 289 353
+1 334 367 401 349
+1 246 335 401 335
+1 201 321 160 334
+1 201 349 160 334
+1 160 598 401 599
+1 160 622 401 613
+39 16777215
+47 0
+40 1 8 8
+50 800 800
+51 1 30
+30
+System
+20
+700
+0
+0
+1
+2
+2
+34
